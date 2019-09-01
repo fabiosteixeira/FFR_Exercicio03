@@ -6,7 +6,7 @@ export default (req, res) => {
         .then(function (response) {
             response.json().then(
                 (r) => {
-                    console.log('Retorno: ' + JSON.stringify(r))
+                    res.setHeader("Content-Type", "application/json")
                     res.end(JSON.stringify(r))
                 }
             )
