@@ -14,7 +14,7 @@ const Home = () => {
       <Head>
         <title>Home</title>
       </Head>
-
+{/* 
       <label> Digite o que procura aqui: </label>
       <input type="text" onChange={(e) => {
         atualizaTermo(e)
@@ -22,7 +22,7 @@ const Home = () => {
       <Link href={'results/${item}' as={termo}></Link>
 
 
-      {/* <Link href="results/[slug]" as="results/asx">asx</Link> */}
+      <Link href="results/[slug]" as="results/asx">asx</Link> */}
 
     </div>
   )
